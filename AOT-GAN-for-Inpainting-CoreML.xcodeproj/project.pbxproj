@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F5B46CA2C62302B004796B8 /* sam_decoder.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B46C82C62302B004796B8 /* sam_decoder.mlpackage */; };
+		1F5B46CB2C62302B004796B8 /* sam_encoder.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B46C92C62302B004796B8 /* sam_encoder.mlpackage */; };
+		1F7BF81D2C64FC220049E209 /* sam_encoder_norm.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1F7BF81C2C64FC220049E209 /* sam_encoder_norm.mlpackage */; };
+		1F7DB5B02C60FF3900EE0F61 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7DB5AF2C60FF3900EE0F61 /* TestController.swift */; };
 		734FA4E2298C59DD007627D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FA4E1298C59DD007627D9 /* AppDelegate.swift */; };
 		734FA4E4298C59DD007627D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FA4E3298C59DD007627D9 /* SceneDelegate.swift */; };
 		734FA4E6298C59DD007627D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FA4E5298C59DD007627D9 /* ViewController.swift */; };
@@ -41,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F5B46C82C62302B004796B8 /* sam_decoder.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = sam_decoder.mlpackage; sourceTree = "<group>"; };
+		1F5B46C92C62302B004796B8 /* sam_encoder.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = sam_encoder.mlpackage; sourceTree = "<group>"; };
+		1F7BF81C2C64FC220049E209 /* sam_encoder_norm.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = sam_encoder_norm.mlpackage; sourceTree = "<group>"; };
+		1F7DB5AF2C60FF3900EE0F61 /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
 		734FA4DE298C59DD007627D9 /* AOT-GAN-for-Inpainting-CoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AOT-GAN-for-Inpainting-CoreML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		734FA4E1298C59DD007627D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		734FA4E3298C59DD007627D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,10 +119,14 @@
 			children = (
 				734FA4E1298C59DD007627D9 /* AppDelegate.swift */,
 				734FA4E3298C59DD007627D9 /* SceneDelegate.swift */,
+				1F7DB5AF2C60FF3900EE0F61 /* TestController.swift */,
 				734FA4E5298C59DD007627D9 /* ViewController.swift */,
 				734FA59B29920691007627D9 /* Utils.swift */,
 				734FA513298C5BCE007627D9 /* CoreMLHelpers.swift */,
 				734FA4E7298C59DD007627D9 /* Main.storyboard */,
+				1F5B46C92C62302B004796B8 /* sam_encoder.mlpackage */,
+				1F7BF81C2C64FC220049E209 /* sam_encoder_norm.mlpackage */,
+				1F5B46C82C62302B004796B8 /* sam_decoder.mlpackage */,
 				734FA511298C5A69007627D9 /* aotgan.mlmodel */,
 				734FA59D29920E08007627D9 /* realesrgangeneral512.mlmodel */,
 				734FA4EA298C59DF007627D9 /* Assets.xcassets */,
@@ -281,9 +293,13 @@
 				734FA4E6298C59DD007627D9 /* ViewController.swift in Sources */,
 				734FA4E2298C59DD007627D9 /* AppDelegate.swift in Sources */,
 				734FA514298C5BCF007627D9 /* CoreMLHelpers.swift in Sources */,
+				1F7DB5B02C60FF3900EE0F61 /* TestController.swift in Sources */,
+				1F7BF81D2C64FC220049E209 /* sam_encoder_norm.mlpackage in Sources */,
 				734FA59E29920E08007627D9 /* realesrgangeneral512.mlmodel in Sources */,
 				734FA4E4298C59DD007627D9 /* SceneDelegate.swift in Sources */,
+				1F5B46CA2C62302B004796B8 /* sam_decoder.mlpackage in Sources */,
 				734FA512298C5A69007627D9 /* aotgan.mlmodel in Sources */,
+				1F5B46CB2C62302B004796B8 /* sam_encoder.mlpackage in Sources */,
 				734FA59C29920691007627D9 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,11 +477,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.2;
-				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				DEVELOPMENT_TEAM = J2SBX6KY5H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "AOT-GAN-for-Inpainting-CoreML/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Inpainting;
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = 1.0;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -476,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.AOT-GAN-for-Inpainting-CoreML";
+				PRODUCT_BUNDLE_IDENTIFIER = edz.magicpixel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -491,11 +507,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.2;
-				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				DEVELOPMENT_TEAM = J2SBX6KY5H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "AOT-GAN-for-Inpainting-CoreML/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Inpainting;
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = 1.0;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -506,7 +522,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.AOT-GAN-for-Inpainting-CoreML";
+				PRODUCT_BUNDLE_IDENTIFIER = edz.magicpixel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
