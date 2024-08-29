@@ -263,7 +263,6 @@ class ViewController: UIViewController,PHPickerViewControllerDelegate, UIPickerV
             let aspect = imageSize.width / imageSize.height
             drawingView.frame = CGRect(x: imageView.center.x - (imageView.frame.height * aspect / 2), y: imageView.frame.minY, width: imageView.frame.height * aspect, height: imageView.frame.height)
         }
-        
     }
 }
 
